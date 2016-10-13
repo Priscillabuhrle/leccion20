@@ -1,19 +1,10 @@
+
 // tu codigo va aca
 //ejercicio uno
 function callbackPromedio (a,b,c,callback){
-	var numUno= a;
-	var numDos= b;
-	var numTres= c;
-
-	function callback(){
-       var promedio= (numUno+numDos+numTres)/3;
-       return promedio;
-	}
-	return callback();
+	var suma = (a+b+c)/3;
+	return callback(suma);
 }
-var final= callbackPromedio(2,4,6)
-return final;
-
 //ejercicio dos segundero
 
 var cont = 1;
